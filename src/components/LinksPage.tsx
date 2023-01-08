@@ -17,7 +17,7 @@ const LinksPage: FC<{ sortCriteria?: SortCriteria }> = ({ sortCriteria = 'TOP_MI
 	const { data, loading, error } = useQuery<{ explorePublications: { items: Post[] } }>(EXPLORE_PUBLICATIONS, {
 		variables: { sortCriteria, profileId: profile?.id },
 	})
-
+	console.log(data);
 	const links = useMemo(() => {
 		if (!data) return
 

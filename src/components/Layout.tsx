@@ -34,8 +34,8 @@ const Layout = ({ children }) => {
 				<meta property="twitter:image" content={meta.image} />
 			</Head>
 			<div className="text-white min-h-screen">
-				<div className="fixed inset-0 -z-10 h-screen">
-					<Image src={bgImage} placeholder="blur" layout="fill" alt="" />
+				<div className="fixed inset-0 -z-10 h-screen bg-gradient-to-b from-amber-600 via-amber-700 to-orange-600">
+{/* <Image src={bgImage} placeholder="blur" layout="fill" alt="" /> */}
 				</div>
 				<Header />
 				<main className="max-w-2xl mx-auto space-y-8 px-6 md:px-0">{children}</main>
