@@ -9,7 +9,7 @@ const Header = () => {
 			<Link href="/">
 				<a className="flex items-center space-x-2">
 					<RefractLogo className="w-6 h-6" />
-					<span className="font-bold">Refract</span>
+					<span className="font-bold">E-Learn</span>
 				</a>
 			</Link>
 			<div className="hidden md:flex items-center space-x-4">
